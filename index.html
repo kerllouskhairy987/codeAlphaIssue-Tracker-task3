@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BoxIcons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bondi.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Isse Tracker</title>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2>Issue Tracker</h2>
+        <div class="content">
+            <p>Add New Issue:</p>
+            <label for="#descripe" class="mb-3">
+                <span>Description</span>
+                <input type="text" placeholder="Descripe the issue ..." id="descripe">
+            </label>
+            <label for="#descripe" class="dropdown mb-3">
+                <span>Severity </span>
+                <input type="text" placeholder="Enter your severity ..." id="severity">
+            </label>
+            <label for="" class="mb-3">
+                <span>Assigned To</span>
+                <input type="text" placeholder="Enter responsible ..." id="assigned">
+            </label>
+            <button class="btn btn-primary" onclick="addData()" id="add">Add</button>
+        </div>
+    </div>
+        <!-- Section Two Start -->
+    <section class="container mt-5" >
+        <div class="content_row row p-5 pb-0 m-0 gap-1 d-flex justify-content-around"></div>
+    </section>
+    <!-- Section Two End -->
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
